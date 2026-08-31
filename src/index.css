@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+    scroll-behavior: smooth;
+    word-break: keep-all;
+    background-color: #F7F3EC;
+    color: #30261F;
+    letter-spacing: -0.02em;
+  }
+  
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #F7F3EC;
+    color: #30261F;
+    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    letter-spacing: -0.03em;
+    font-weight: 700;
+  }
+
+  p, span, li {
+    letter-spacing: -0.015em;
+  }
+}
+
+/* Pretendard Numeric & Hierarchy helper classes */
+.font-numeric {
+  font-feature-settings: "tnum" 1, "cv05" 1;
+}
+
+/* Clean Editorial & Corporate utilities */
+.editorial-border {
+  border-color: #E6DED4;
+}
+
+.editorial-card {
+  background-color: #FAF7F2;
+  border: 1px solid #E6DED4;
+}
+
+.editorial-espresso {
+  background-color: #261E18;
+  color: #F7F3EC;
+}
+
+.editorial-linen {
+  background-color: #EFE9E0;
+}
+
+

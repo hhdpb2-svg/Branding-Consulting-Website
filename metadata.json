@@ -1,0 +1,6 @@
+{
+  "name": "크몽 서비스 상세페이지 - 반응형 홈페이지 제작",
+  "description": "크몽 등록용 프리미엄 반응형 홈페이지 제작 서비스 상세페이지 웹 랜딩페이지",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
